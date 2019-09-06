@@ -1,6 +1,6 @@
 require "pry"
 def game_hash  
-new_hash = {:home =>{team_name: "Charlotte Hornets" , colors: =>%w["Turquoise Purple"], players: =>[{}]},:away=>{team_name:"", colors:[], players:[{player_name: 'Jeff Adrien',
+new_hash = {:home =>{team_name: "Charlotte Hornets" , colors: =>%w["Turquoise Purple"], players: =>[{player_name: 'Jeff Adrien',
                 number: 4,
                 shoe: 18,
                 points: 10,
@@ -46,7 +46,7 @@ new_hash = {:home =>{team_name: "Charlotte Hornets" , colors: =>%w["Turquoise Pu
                 blocks: 5,
                 slam_dunks: 12 }
             ] },
-            
+            [{}]
             
           
 end 
