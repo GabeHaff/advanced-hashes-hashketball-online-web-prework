@@ -167,7 +167,7 @@ def player_stats(desired_player_name)
   end
   new_hash
 end
-def def big_shoe_rebounds
+def big_shoe_rebounds
   biggest_shoe = 0
   numba_rebounds = 0
 
