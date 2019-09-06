@@ -130,4 +130,4 @@ def team_colors(team_name)
     return game_hash[place][:colors] if team[:team_name] == team_name
   end
 end
-def team_names()
+def 
