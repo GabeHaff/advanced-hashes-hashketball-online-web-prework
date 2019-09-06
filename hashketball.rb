@@ -135,8 +135,4 @@ def team_names
     team[:team_name]
   end
 end
-def player_numbers
-  game_hash.map do |place, team|
-    number[:number]
-  end 
-end 
+def 
