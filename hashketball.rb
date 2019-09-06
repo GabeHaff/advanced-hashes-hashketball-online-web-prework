@@ -46,7 +46,7 @@ new_hash = {:away =>{team_name: "Charlotte Hornets" , colors: =>%w["Turquoise Pu
                 blocks: 5,
                 slam_dunks: 12 }
             ] },
-            [{}]
+            home: [{}]
             
           
 end 
