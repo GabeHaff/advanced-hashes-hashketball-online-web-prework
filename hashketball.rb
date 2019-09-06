@@ -167,4 +167,15 @@ def player_stats(desired_player_name)
   end
   new_hash
 end
-def 
+def def big_shoe_rebounds
+  biggest_shoe = 0
+  numba_rebounds = 0
+
+  game_hash.each do |_team, game_data|
+    game_data[:players].each do |player|
+      if player[:shoe] > biggest_shoe
+        biggest_shoe = player[:shoe]
+        numba_rebounds = player[:rebounds]
+      end
+    end
+  end
