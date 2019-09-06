@@ -149,3 +149,5 @@ def player_numbers(team_name)
   end
   numba
 end
+
+def player_stats
