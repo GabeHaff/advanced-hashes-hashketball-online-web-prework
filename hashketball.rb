@@ -182,5 +182,7 @@ def big_shoe_rebounds
 numba_rebounds 
 end 
 def most_points_scored 
-  
+  def most_points_scored
+  player_with_most_of(:points)
+end
 end
