@@ -136,7 +136,16 @@ def team_names
   end
 end
 def player_numbers(team_name)
-  nums = []
+  numba = []
   game_hash.each do |_place, team|
     next unless team[:team_name] == team_name
-    
+    team.each do |attribute, data|
+      next unless attribute == :players
+
+      data.each do |data|
+        numba << data[:number]
+      end
+    end
+  end
+  numba
+end
